@@ -3,29 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3B73D77C2372D66800A3FAFC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B73D77B2372D66800A3FAFC /* Colors.xcassets */; };
-		3B969D672391DE5A005980BD /* AssetCatalogAwarePre13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B969D662391DE45005980BD /* AssetCatalogAwarePre13.framework */; };
-		3B969D682391DE5A005980BD /* AssetCatalogAwarePre13.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B969D662391DE45005980BD /* AssetCatalogAwarePre13.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3B972CB22375924B0013DE70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B972CB12375924B0013DE70 /* Colors.swift */; };
 		3B972CB6237595130013DE70 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B972CB5237595130013DE70 /* Images.swift */; };
+		3BACBA0023FC7C39000B196E /* AssetCatalogAwarePre13 in Frameworks */ = {isa = PBXBuildFile; productRef = 3BACB9FF23FC7C39000B196E /* AssetCatalogAwarePre13 */; };
 		3BC67A24237AFFA900FE01A8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC67A22237AFFA900FE01A8 /* Strings.swift */; };
 		3BF15894236BFDEC00E213C3 /* Assets.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF15886236BFDEC00E213C3 /* Assets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BF158A0236BFEE800E213C3 /* AssetSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1589F236BFEE700E213C3 /* AssetSupport.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3B969D652391DE45005980BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B969D612391DE44005980BD /* AssetCatalogAware.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3BF15883236BFDEC00E213C3;
-			remoteInfo = AssetCatalogAwarePre13;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3B32B0452376F25F00A22BBE /* Embed Frameworks */ = {
@@ -34,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3B969D682391DE5A005980BD /* AssetCatalogAwarePre13.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		3B73D77B2372D66800A3FAFC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		3B969D612391DE44005980BD /* AssetCatalogAware.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AssetCatalogAware.xcodeproj; path = ../AssetCatalogAwarePre13/AssetCatalogAware.xcodeproj; sourceTree = "<group>"; };
 		3B972CB12375924B0013DE70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3B972CB5237595130013DE70 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		3B972CB723759AF30013DE70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,35 +46,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B969D672391DE5A005980BD /* AssetCatalogAwarePre13.framework in Frameworks */,
+				3BACBA0023FC7C39000B196E /* AssetCatalogAwarePre13 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B32AFF3237670F700A22BBE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3B969D612391DE44005980BD /* AssetCatalogAware.xcodeproj */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3B969D622391DE44005980BD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3B969D662391DE45005980BD /* AssetCatalogAwarePre13.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3BF15879236BFDEC00E213C3 = {
 			isa = PBXGroup;
 			children = (
 				3BF15885236BFDEC00E213C3 /* Assets */,
 				3BF15884236BFDEC00E213C3 /* Products */,
-				3B32AFF3237670F700A22BBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +113,9 @@
 			dependencies = (
 			);
 			name = AssetsPre13;
+			packageProductDependencies = (
+				3BACB9FF23FC7C39000B196E /* AssetCatalogAwarePre13 */,
+			);
 			productName = _Assets_;
 			productReference = 3BF15883236BFDEC00E213C3 /* AssetsPre13.framework */;
 			productType = "com.apple.product-type.framework";
@@ -172,30 +145,17 @@
 				Base,
 			);
 			mainGroup = 3BF15879236BFDEC00E213C3;
+			packageReferences = (
+				3BACB9FE23FC7C39000B196E /* XCRemoteSwiftPackageReference "AssetCatalogAwarePre13" */,
+			);
 			productRefGroup = 3BF15884236BFDEC00E213C3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3B969D622391DE44005980BD /* Products */;
-					ProjectRef = 3B969D612391DE44005980BD /* AssetCatalogAware.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3BF15882236BFDEC00E213C3 /* AssetsPre13 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3B969D662391DE45005980BD /* AssetCatalogAwarePre13.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AssetCatalogAwarePre13.framework;
-			remoteRef = 3B969D652391DE45005980BD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3BF15881236BFDEC00E213C3 /* Resources */ = {
@@ -418,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BACB9FE23FC7C39000B196E /* XCRemoteSwiftPackageReference "AssetCatalogAwarePre13" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:wltrup/AssetCatalogAwarePre13.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BACB9FF23FC7C39000B196E /* AssetCatalogAwarePre13 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BACB9FE23FC7C39000B196E /* XCRemoteSwiftPackageReference "AssetCatalogAwarePre13" */;
+			productName = AssetCatalogAwarePre13;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BF1587A236BFDEC00E213C3 /* Project object */;
 }

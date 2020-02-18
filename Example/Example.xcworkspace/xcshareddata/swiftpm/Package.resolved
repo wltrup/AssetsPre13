@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AssetCatalogAwarePre13",
+        "repositoryURL": "git@github.com:wltrup/AssetCatalogAwarePre13.git",
+        "state": {
+          "branch": null,
+          "revision": "c0a8b0ffb6233a13c628c630d2b02de419407598",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

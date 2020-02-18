@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
         self.view.backgroundColor = Assets.color(.backgroundMainView)
         exampleView.backgroundColor = Assets.color(.backgroundExampleView)
+        exampleView.layer.cornerRadius = 20
         exampleLabel.text = Assets.string(.exampleText)
 
     }
