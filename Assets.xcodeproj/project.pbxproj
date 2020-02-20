@@ -30,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B063C7A23FE11610021E6D3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3B063C7B23FE11610021E6D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B73D77B2372D66800A3FAFC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3B972CB12375924B0013DE70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3B972CB5237595130013DE70 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		3BF15879236BFDEC00E213C3 = {
 			isa = PBXGroup;
 			children = (
+				3B063C7B23FE11610021E6D3 /* README.md */,
+				3B063C7A23FE11610021E6D3 /* LICENSE */,
 				3BF15885236BFDEC00E213C3 /* Assets */,
 				3BF15884236BFDEC00E213C3 /* Products */,
 			);

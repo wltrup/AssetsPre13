@@ -42,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B063C7723FE11500021E6D3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		3B063C7923FE11510021E6D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		3B64B97E23756FC2004E17DB /* Example_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B64B98123756FC2004E17DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B64B98323756FC2004E17DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		3B64B97523756FC2004E17DB = {
 			isa = PBXGroup;
 			children = (
+				3B063C7923FE11510021E6D3 /* README.md */,
+				3B063C7723FE11500021E6D3 /* LICENSE */,
 				3B64B98023756FC2004E17DB /* Example_UIKit */,
 				3B64B97F23756FC2004E17DB /* Products */,
 			);
