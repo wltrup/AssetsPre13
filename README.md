@@ -4,7 +4,7 @@
 
 **AssetsPre13** is an iOS framework to manage a variety of assets, applicable to iOS versions up to but **not** including iOS 13.0. Its main advantages are:
 
-- *modularity*: all your application assets are organised in a single module
+- *modularity*: your application assets are organised in a single module, separate from the rest of your application
 - *type safety*: assets are accessed via enumeration values (which *you* define), rather than string literals
 - *uniform API*: **AssetsPre13** manages Strings, Images, and Colors, using a uniform pattern, like so:
 ```swift
