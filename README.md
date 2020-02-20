@@ -51,4 +51,4 @@ Wagner Truppel, trupwl@gmail.com
 
 ## License
 
-**AssetsPre13** is available under the MIT license. See the [LICENSE](https://github.com/wltrup/AssetsPre13/LICENSE) file for more info.
+**AssetsPre13** is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
