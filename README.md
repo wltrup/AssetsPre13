@@ -1,8 +1,13 @@
 # AssetsPre13
+![](https://img.shields.io/badge/platforms-iOS%2011-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetsPre13)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetsPre13)
 
 ## What
 
-**AssetsPre13** is an iOS framework to manage a variety of assets, applicable to iOS versions up to but **not** including iOS 13.0. Its main advantages are:
+**AssetsPre13** is an iOS framework to manage a variety of assets, applicable to iOS versions from 11.0 up to but **not** including  13.0. Its main advantages are:
 
 - *modularity*: your application assets are organised in a single module, separate from the rest of your application
 - *type safety*: assets are accessed via enumeration values (which *you* define), rather than string literals
