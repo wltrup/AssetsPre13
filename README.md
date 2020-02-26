@@ -42,6 +42,10 @@ class ViewController: UIViewController {
 }
 ```
 
+## Dependencies
+
+**AssetsPre13** depends on anoher library of mine, [**AssetCatalogAwarePre13**](https://github.com/wltrup/AssetCatalogAwarePre13.git).
+
 ## Installation
 
 At the moment, **AssetsPre13** can only be installed by cloning or downloading its GitHub repository. I'm waiting for the Swift Package Manager to support resources so I can turn it into a proper package, since I'm moving away from CocoaPods and Carthage.
