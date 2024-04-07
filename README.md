@@ -12,6 +12,7 @@
 - *modularity*: your application assets are organised in a single module, separate from the rest of your application
 - *type safety*: assets are accessed via enumeration values (which *you* define), rather than string literals
 - *uniform API*: **AssetsPre13** manages Strings, Images, and Colors, using a uniform pattern, like so:
+
 ```swift
 Assets.color(.backgroundMainView)
 Assets.image(.doneButton)
@@ -20,6 +21,7 @@ Assets.image(.doneButton)
 It achieves its goals by relying on another library of mine, [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13), which is responsible for defining the various protocols and functions required to manage assets. This separation of concerns is what allows **AssetsPre13** to be customisable to your heart's content.
 
 An example project for UIKit is provided. Here are the relevant parts, illustrating how **AssetsPre13** is used in practice:
+
 ```swift
 import AssetsPre13
 
@@ -53,10 +55,6 @@ At the moment, **AssetsPre13** can only be installed by cloning or downloading i
 ## Newer iOS versions
 
 **AssetsPre13** is meant to be used with versions of iOS below 13.0. If you need to support newer versions, you might want to look at [Assets](https://github.com/wltrup/Assets), instead.
-
-## Author
-
-Wagner Truppel, trupwl@gmail.com
 
 ## License
 
